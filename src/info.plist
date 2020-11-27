@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.chrismessina.new</string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>connections</key>
+	<dict>
+		<key>4C295CDD-50EF-412D-A602-2E9417B9858E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A0402FB9-C602-41B3-BD30-8AC441E8329B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>C96E302D-F8AA-4D97-B65E-454195582E86</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7B98B7A2-0F77-4F50-847C-BC3736C4EF0B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4C295CDD-50EF-412D-A602-2E9417B9858E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Chris Messina</string>
+	<key>description</key>
+	<string>Quickly create new web documents!</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>New Cloud Documents</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string></string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>A0402FB9-C602-41B3-BD30-8AC441E8329B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
+				<string>[{"imagefile":"16db794875adcef25de26f88fa4158bf0ca6a592.png","title":"New RunKit API notebook","arg":"https:\/\/api.new\/","subtitle":""},{"imagefile":"e4847a1b66455e7ac70cddbb018c33ba59fe1e84.png","title":"New Asana task","arg":"https:\/\/asana.new\/","subtitle":""},{"imagefile":"28aedc7610f8f266c26a10bbd2d6c1371701a6d5.png","title":"New WordPress blog","arg":"https:\/\/blog.new\/","subtitle":""},{"imagefile":"957dd9f5b8c9311ae98e9af0b71665cfea19d3f8.png","title":"New Google Calendar event","arg":"https:\/\/cal.new\/","subtitle":""},{"imagefile":"13a280e35c57f3d23d89038086b70792e153f44c.png","title":"New Canva design","arg":"https:\/\/canva.new\/","subtitle":""},{"imagefile":"9e3fe2dac8ff7d9b703bf1a320bb8ceb2ae403d8.png","title":"New Coda doc","arg":"https:\/\/coda.new\/","subtitle":""},{"imagefile":"f247813c75b22cc22efe19e5c6def58ee4e964fd.png","title":"Compress PDF","arg":"https:\/\/compresspdf.new\/","subtitle":""},{"imagefile":"04738eaa209f6e3aceb5b8c8a765c95d060585a3.png","title":"New Adobe Spark post","arg":"https:\/\/create.new\/","subtitle":""},{"imagefile":"efe21a9fa4995269a702d6f365b5cb757a6e69e4.png","title":"New CodeSandbox Sandbox","arg":"https:\/\/csb.new\/","subtitle":""},{"imagefile":"9aebc9e1c99afd5691dcb3b4f11391002285727c.png","title":"Generate Dashlane password","arg":"https:\/\/password.new\/","subtitle":""},{"imagefile":"13a280e35c57f3d23d89038086b70792e153f44c.png","title":"New Canva design","arg":"https:\/\/design.new\/","subtitle":""},{"imagefile":"84fe1d707064524a6ce625ac11ba51bfe97acad0.png","title":"New Discord channel","arg":"https:\/\/discord.new\/","subtitle":""},{"imagefile":"8dde3916cfe12358fd1df6bb993b60d4135539b7.png","title":"New Google Drawing","arg":"https:\/\/docs.google.com\/drawings","subtitle":""},{"imagefile":"2dce551c59e7aab2d136411bb8e8011755d6731e.png","title":"New Google Doc","arg":"https:\/\/doc.new\/","subtitle":""},{"imagefile":"9a4c4cd6043b3a133cad2517719629dbfcf19e22.png","title":"New BarNotes cocktail","arg":"http:\/\/barnotes.co\/recipes\/new_web","subtitle":""},{"imagefile":"12dd002768a7041b60c972072392e59299b6813c.png","title":"New Anchor podcast episode","arg":"https:\/\/episode.new\/","subtitle":""},{"imagefile":"2dce551c59e7aab2d136411bb8e8011755d6731e.png","title":"New Google Form","arg":"https:\/\/forms.new\/","subtitle":""},{"imagefile":"aa666520161564922492cbb4e0b4617d475b3618.png","title":"New Github gist","arg":"https:\/\/gist.new\/","subtitle":""},{"imagefile":"8ff595bca2f6c496ec81a4213e1f0dbf7a30eda9.png","title":"New Glitch app","arg":"https:\/\/glitch.new\/","subtitle":""},{"imagefile":"025abc492a8e8b3d36ceaa342caacc093451170a.png","title":"New ZipRecruiter job posting","arg":"https:\/\/hire.new\/","subtitle":""},{"imagefile":"b6d8f04aa200a6000579d1ac81bb5238cdf6c9d4.png","title":"New Product Hunt post","arg":"https:\/\/www.producthunt.com\/posts\/new","subtitle":""},{"imagefile":"8230d8d793084906add5540ff03d78a816d208c7.png","title":"New one-off Stripe invoice","arg":"https:\/\/invoice.new\/","subtitle":""},{"imagefile":"4b6babec4df5190edcd8224833b5f8012e9896ef.png","title":"New CodeSandbox JavaScript example starter project","arg":"https:\/\/js.new","subtitle":""},{"imagefile":"9ddcccffffa4ce5f3db95270943e32b4c831c14e.png","title":"New Google Keep note","arg":"https:\/\/keep.new\/","subtitle":""},{"imagefile":"a34f053502b9358ea00f382d33988ee3010a3ef2.png","title":"Start a Cisco Webex meeting","arg":"https:\/\/letsmeet.new\/","subtitle":""},{"imagefile":"99dc83293a2cbdf112d1bb8405e1ad0777e9d92c.png","title":"New Bitly short link","arg":"https:\/\/link.new\/","subtitle":""},{"imagefile":"f7263f4633e7c152eb18aa19ea21c67f506012be.png","title":"New Medium story","arg":"https:\/\/story.new\/","subtitle":""},{"imagefile":"ec6c938e06ccd781fb6ac82ec7c9b3d7dfa01657.png","title":"Start Google Meet meeting","arg":"https:\/\/meet.new\/","subtitle":""},{"imagefile":"957dd9f5b8c9311ae98e9af0b71665cfea19d3f8.png","title":"New Google Calendar meeting","arg":"https:\/\/meeting.new\/","subtitle":""},{"imagefile":"a34f053502b9358ea00f382d33988ee3010a3ef2.png","title":"Start Cisco Webex meeting","arg":"https:\/\/mymeet.new","subtitle":""},{"imagefile":"cb94a153aa2e731b6473b798ba75169713a03ade.png","title":"New CodeSandbox Angular starter project","arg":"https:\/\/ng.new","subtitle":""},{"imagefile":"78eb9e133c74c239173f81d9e565e34644306189.png","title":"New Stripe payment","arg":"https:\/\/payment.new\/","subtitle":""},{"imagefile":"33ab1a5e0e750f57bfdcaf645147317b95c04a0c.png","title":"Convert to PDF","arg":"https:\/\/pdf.new\/","subtitle":""},{"imagefile":"56cc67b631f1fbbd846b90820e397e986e91602f.png","title":"New Spotify playlist","arg":"https:\/\/playlist.new\/","subtitle":""},{"imagefile":"abd1506d57060d43d435bd614c09b7e575c3ecb1.png","title":"New Anchor podcast","arg":"https:\/\/podcast.new\/","subtitle":""},{"imagefile":"28aedc7610f8f266c26a10bbd2d6c1371701a6d5.png","title":"New WordPress blog post","arg":"https:\/\/post.new\/","subtitle":""},{"imagefile":"deab5dcc7639c25ce869951f56bbc6eef2abf792.png","title":"CreNewate Prezi presentation","arg":"https:\/\/prezi.new\/","subtitle":""},{"imagefile":"8355b14151748cab8ab7b468754979176be0dc5e.png","title":"New CodeSandbox React example starter project","arg":"https:\/\/react.new","subtitle":""},{"imagefile":"aa666520161564922492cbb4e0b4617d475b3618.png","title":"New Github repository","arg":"https:\/\/repo.new\/","subtitle":""},{"imagefile":"106c8b149fe8a28ad7f791388827790698a06324.png","title":"New CV2you resume","arg":"https:\/\/resume.new\/","subtitle":""},{"imagefile":"0072b58b5bfa7977ade3eae482ac31aec2cb9749.png","title":"New Google Sheets spreadsheet","arg":"https:\/\/sheet.new\/","subtitle":""},{"imagefile":"59187ca5c9b966d61f8421317833b45831c9d9f2.png","title":"New Google Slides presentation","arg":"https:\/\/slide.new\/","subtitle":""},{"imagefile":"04738eaa209f6e3aceb5b8c8a765c95d060585a3.png","title":"New Adobe Spark post","arg":"https:\/\/stories.new\/","subtitle":""},{"imagefile":"6054c384d938de09201fda1b420931b71d1bbfff.png","title":"New eBay sale","arg":"https:\/\/sell.new\/","subtitle":""},{"imagefile":"b0fdfd01b13948779ec51ef5712c998dfbdabcbd.png","title":"New Shopify store","arg":"https:\/\/shopify.new\/","subtitle":""},{"imagefile":"83286f5f7836d96666bb2e54dc8e3c7ffd16332b.png","title":"Sign a document","arg":"https:\/\/sign.new\/","subtitle":""},{"imagefile":"8230d8d793084906add5540ff03d78a816d208c7.png","title":"New Stripe subscription invoice","arg":"https:\/\/subscription.new\/","subtitle":""},{"imagefile":"a54def1190ca699b40b79cda6eb51dfa3465fa0e.png","title":"New Surveymonkey survey","arg":"https:\/\/surveymonkey.new\/","subtitle":""},{"imagefile":"bc23d5708c7aeb72064653fe17f05606248a5cee.png","title":"New CodeSandbox TypeScript example starter project","arg":"https:\/\/ts.new","subtitle":""},{"imagefile":"a34f053502b9358ea00f382d33988ee3010a3ef2.png","title":"Start a Cisco Webex meeting","arg":"https:\/\/webex.new\/","subtitle":""},{"imagefile":"13bbb9342a23ec43538f62bfea19253637030ebb.png","title":"New CodeSandbox Vue.js example starter project","arg":"https:\/\/vue.new","subtitle":""},{"imagefile":"74b00777de8d202100c121587db308b2de97d481.png","title":"New WIP todo","arg":"https:\/\/todo.new","subtitle":""},{"imagefile":"336b24e600b7d7745b1a1501e045fbf558040cde.png","title":"New Dropbox Transfer","arg":"https:\/\/www.dropbox.com\/transfer"},{"imagefile":"f95d53412d9a5b0932583a389950ab431f9dc29d.png","title":"New Imgur Upload","arg":"https:\/\/imgur.com\/upload"},{"imagefile":"9c8f008f1f1fb36139ef3708eb7c5150538b1373.png","title":"New Jamstack site","arg":"https:\/\/jamstack.new"},{"imagefile":"95795436e212341752b33333798a24c3949a8507.png","title":"New Jamstack NextJS static site","arg":"https:\/\/jamstack.new\/\nnextjs"},{"imagefile":"5f160200a17fad8770f86c56663798941329c345.png","title":"New Jamstack Gatsby site","arg":"https:\/\/jamstack.new\/\ngatsby"},{"imagefile":"5fbecca72ab868d5d21c000c274b22f3728fa599.png","title":"New Jamstack Hugo site","arg":"https:\/\/jamstack.new\/hugo","subtitle":""},{"imagefile":"ee90d28bbf5805884a50e0107e7ecacdee625e5f.png","title":"New Jamstack Jekyll site","arg":"https:\/\/jamstack.new\/jekyll","subtitle":""},{"imagefile":"9c8f008f1f1fb36139ef3708eb7c5150538b1373.png","title":"New Jamstack blog","arg":"https:\/\/jamstack.new\/blog","subtitle":""},{"imagefile":"9c8f008f1f1fb36139ef3708eb7c5150538b1373.png","title":"New Jamstack personal blog","arg":"https:\/\/jamstack.new\/personal","subtitle":""},{"imagefile":"9c8f008f1f1fb36139ef3708eb7c5150538b1373.png","title":"New Jamstack business site","arg":"https:\/\/jamstack.new\/business","subtitle":""},{"imagefile":"9c8f008f1f1fb36139ef3708eb7c5150538b1373.png","title":"New Jamstack portfolio site","arg":"https:\/\/jamstack.new\/portfolio","subtitle":""},{"imagefile":"9c8f008f1f1fb36139ef3708eb7c5150538b1373.png","title":"New Jamstack multipurpose site","arg":"https:\/\/jamstack.new\/multipurpose","subtitle":""},{"imagefile":"9c8f008f1f1fb36139ef3708eb7c5150538b1373.png","title":"New Jamstack documentation site","arg":"https:\/\/jamstack.new\/docs","subtitle":""},{"imagefile":"e86e38e3e1385eb2d51c100acf41b024e1013300.png","title":"New Jamstack Contentful site","arg":"https:\/\/jamstack.new\/contentful","subtitle":""},{"imagefile":"f8e377b04fb3ef724d6391c513784df640dd456e.png","title":"New Jamstack Sanity site","arg":"https:\/\/jamstack.new\/sanity","subtitle":""},{"imagefile":"0ac29432385b29bc82f7ab33444d55f9e0cceb4d.png","title":"New Jamstack Git site","arg":"https:\/\/jamstack.new\/git","subtitle":""},{"imagefile":"ef6e847122c42adad4c542d5573ff8a8d1e560a5.png","title":"New Jamstack Netlify site","arg":"https:\/\/jamstack.new\/netlifycms","subtitle":""},{"imagefile":"ff8246ab6e55b685f6082999b99de9694888ab9a.png","title":"New Jamstack Forestry site","arg":"https:\/\/jamstack.new\/forestry","subtitle":""},{"imagefile":"e21fc6af2b538ba3c458b3ce6ec15d123ae5d64c.png","title":"New Jamstack Dato CMS site","arg":"https:\/\/jamstack.new\/datocms","subtitle":""},{"imagefile":"d44c62c908fe060c0d1b9056d2397c60a69aa158.png","title":"New OpenTable reservation","arg":"https:\/\/reservation.new\/"},{"imagefile":"29d6a63567fc34f7df8dea4446d789cf6c816faf.png","title":"New Vercel project","arg":"https:\/\/deploy.new\/","subtitle":""},{"imagefile":"41a07db6cdb65f188b052aaeae2efe40ce4c68ea.png","title":"New Google App Script","arg":"https:\/\/script.new\/"},{"imagefile":"5608e44fb994f85f41eefae2e82967a8cfdd9fb7.png","title":"New Visual Studio codespace","arg":"https:\/\/env.new\/"},{"imagefile":"1e5b0e756b03d6b786ea1070624a3bb93336d55e.png","title":"New CodePen Pen","arg":"https:\/\/pen.new\/"},{"imagefile":"c33a7f101dd9e2d7815596012ac16da10765eb1c.png","title":"New Stripe product","arg":"https:\/\/product.new\/"},{"imagefile":"951d0a375eee7ddb9f5eb305787b4667d17b213f.png","title":"New Brdg Introduction","arg":"https:\/\/brdg.app\/intro-create\/"},{"imagefile":"29b0f113e0781556bb72e65b940684baf43665a5.png","title":"New Notion page","arg":"http:\/\/notion.new\/"}]</string>
+				<key>keyword</key>
+				<string>new</string>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Quickly create new web documents!</string>
+				<key>title</key>
+				<string>Create a new...</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>4C295CDD-50EF-412D-A602-2E9417B9858E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>45</integer>
+				<key>hotmod</key>
+				<integer>1835008</integer>
+				<key>hotstring</key>
+				<string>N</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>7B98B7A2-0F77-4F50-847C-BC3736C4EF0B</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
+readonly remote_info_plist='https://github.com/chrismessina/alfred-new-cloud-documents/blob/main/src/info.plist?raw=true'
+readonly workflow_url='https://github.com/chrismessina/alfred-new-cloud-documents/blob/main/src/dot-new-alfred-workflow.alfredworkflow?raw=true'
+readonly download_type='direct'
+readonly frequency_check='30'
+
+# FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED!
+function abort {
+  echo "${1}" &gt;&amp;2
+  exit 1
+}
+
+function url_exists {
+  curl --silent --location --output /dev/null --fail --range 0-0 "${1}"
+}
+
+function notification {
+  local -r notificator="$(find . -type d -name 'Notificator.app')"
+  if [[ -n "${notificator}" ]]; then
+    "${notificator}/Contents/Resources/Scripts/notificator" --message "${1}" --title "${alfred_workflow_name}" --subtitle 'A new version is available'
+    return
+  fi
+
+  local -r terminal_notifier="$(find . -type f -name 'terminal-notifier')"
+  if [[ -n "${terminal_notifier}" ]]; then
+    "${terminal_notifier}" -title "${alfred_workflow_name}" -subtitle 'A new version is available' -message "${1}"
+    return
+  fi
+
+  osascript -e "display notification \"${1}\" with title \"${alfred_workflow_name}\" subtitle \"A new version is available\""
+}
+
+# Local sanity checks
+readonly local_info_plist='info.plist'
+readonly local_version="$(/usr/libexec/PlistBuddy -c 'print version' "${local_info_plist}")"
+
+[[ -n "${local_version}" ]] || abort 'You need to set a workflow version in the configuration sheet.'
+[[ "${download_type}" =~ ^(direct|page|github_release)$ ]] || abort "'download_type' (${download_type}) needs to be one of 'direct', 'page', or 'github_release'."
+[[ "${frequency_check}" =~ ^[0-9]+$ ]] || abort "'frequency_check' (${frequency_check}) needs to be a number."
+
+# Check for updates
+if [[ $(find "${local_info_plist}" -mtime +"${frequency_check}"d) ]]; then
+  if ! url_exists "${remote_info_plist}"; then abort "'remote_info_plist' (${remote_info_plist}) appears to not be reachable."; fi # Remote sanity check
+
+  readonly tmp_file="$(mktemp)"
+  curl --silent --location --output "${tmp_file}" "${remote_info_plist}"
+  readonly remote_version="$(/usr/libexec/PlistBuddy -c 'print version' "${tmp_file}")"
+
+  if [[ "${local_version}" == "${remote_version}" ]]; then
+    touch "${local_info_plist}" # Reset timer by touching local file
+    exit 0
+  fi
+
+  if [[ "${download_type}" == 'page' ]]; then
+    notification 'Opening download page…'
+    open "${workflow_url}"
+    exit 0
+  fi
+
+  download_url="$([[ "${download_type}" == 'github_release' ]] &amp;&amp; curl --silent "https://api.github.com/repos/${workflow_url}/releases/latest" | grep 'browser_download_url' | head -1 | sed -E 's/.*browser_download_url": "(.*)"/\1/' || echo "${workflow_url}")"
+
+  if url_exists "${download_url}"; then
+    notification 'Downloading and installing…'
+    curl --silent --location --output "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow" "${download_url}"
+    open "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow"
+  else
+    abort "'workflow_url' (${download_url}) appears to not be reachable."
+  fi
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>C96E302D-F8AA-4D97-B65E-454195582E86</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>.new is a domain extension exclusively for performing new actions online: any act that leads to creation can have a quick and memorable .new shortcut associated with it.
+
+This Alfred Workflow allows you to quickly create new cloud documents simply by invoking the 'new' keyword, a space, and then selecting from the list of available options.
+
+
+﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+
+🎩 You can find my Alfred Themes and Workflows here:
+
+https://chrismessina.github.io/alfred-app/
+
+☕ You can also tip me a coffee or two if you like:
+
+https://ko-fi.com/chris
+
+🤙🏻 I'm available for product design consulting as well:
+
+https://superpeer.com/chrismessina</string>
+	<key>uidata</key>
+	<dict>
+		<key>4C295CDD-50EF-412D-A602-2E9417B9858E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>220</integer>
+			<key>ypos</key>
+			<integer>70</integer>
+		</dict>
+		<key>7B98B7A2-0F77-4F50-847C-BC3736C4EF0B</key>
+		<dict>
+			<key>xpos</key>
+			<integer>30</integer>
+			<key>ypos</key>
+			<integer>70</integer>
+		</dict>
+		<key>A0402FB9-C602-41B3-BD30-8AC441E8329B</key>
+		<dict>
+			<key>xpos</key>
+			<integer>425</integer>
+			<key>ypos</key>
+			<integer>70</integer>
+		</dict>
+		<key>C96E302D-F8AA-4D97-B65E-454195582E86</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>note</key>
+			<string>OneUpdater</string>
+			<key>xpos</key>
+			<integer>425</integer>
+			<key>ypos</key>
+			<integer>240</integer>
+		</dict>
+	</dict>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>0.3.1</string>
+	<key>webaddress</key>
+	<string>https://chrismessina.me</string>
+</dict>
+</plist>

@@ -1,6 +1,6 @@
-# .New Cloud Documents for Alfred
+# New Cloud Documents for Alfred
 
-<img src="../../assets/icon-new.png" alt="New logo" width="128" height="128">
+<img src="./assets/icon-new.png" alt="New logo" width="128" height="128">
 
 [.new](https://whats.new/) is a domain extension exclusively for performing new actions online: any act that leads to creation can have a quick and memorable .new shortcut associated with it.
 
@@ -9,9 +9,9 @@ This Alfred Workflow allows you to quickly create new cloud documents simply by 
 
 # Installation
 
-<a href="https://github.com/chrismessina/alfred-app/raw/master/workflows/new-cloud-documents/dot-new-alfred-workflow.alfredworkflow"><img src="../../assets/icon-workflow.png" alt="" width="128" height="128" align="center" alt="Alfred Workflow File Icon"></a>
+<a href="https://github.com/chrismessina/alfred-new-cloud-documents/raw/main/dot-new-alfred-workflow.alfredworkflow"><img src="./assets/icon-workflow.png"  width="128" height="128" align="center" alt="Alfred Workflow File Icon"></a>
 
-1. Download and unzip [this file](https://github.com/chrismessina/alfred-app/raw/master/workflows/new-cloud-documents/dot-new-alfred-workflow.alfredworkflow).
+1. Download and unzip [this file](https://github.com/chrismessina/alfred-new-cloud-documents/raw/main/dot-new-alfred-workflow.alfredworkflow).
 2. Double-click `dot-new-alfred-workflow.alfredworkflow` to install it.
 
 _You will need to be an [Alfred Powerpack](https://www.alfredapp.com/powerpack/) user to enable this workflow._
@@ -37,7 +37,7 @@ Among the list of services included:
 * Dropbox Transfer
 * eBay
 * Google App Scripts
-  Google Calendar
+* Google Calendar
 * Google Docs
 * Google Drawings
 * Google Forms
@@ -68,6 +68,18 @@ You can add new services to the workflow simply by adding a new shortcut to the 
 
 
 # Changelog[¹](https://keepachangelog.com/)
+
+## [0.3.1] - 2020-11-26
+### Added
+- Added OneUpdater
+- Added new Brdg Introduction
+- Added new Notion page
+- Moved to new repo
+
+### Changed
+- Updated Google icons
+- Updated Discord icon
+- Use "New" instead of "Create" verb
 
 ## [0.3.0] - 2020-10-31
 ### Added
@@ -103,4 +115,4 @@ You can add new services to the workflow simply by adding a new shortcut to the 
 
 This workflow is unaffiliated with nor endorsed by the [Google Domain Registrar](https://www.registry.google/).
 
-You can [file bugs](https://github.com/chrismessina/alfred-app/issues/new) or [submit feature requests](https://github.com/chrismessina/alfred-app/issues/new) on GitHub using the label `workflow:new-cloud-documents`.
+You can [file bugs](https://github.com/chrismessina/alfred-new-cloud-documents/issues/new) or [submit feature requests](https://github.com/chrismessina/alfred-new-cloud-documents/issues/new) on GitHub using the label `workflow:new-cloud-documents`.
