@@ -28,11 +28,13 @@ Among the list of services included:
 * Anchor
 * Adobe
 * Asana
+* AngelList
 * Bitly
 * Canva
 * Coda
 * CodePen
 * CodeSandbox
+* CodeSpace
 * Discord
 * Dropbox Transfer
 * eBay
@@ -55,6 +57,7 @@ Among the list of services included:
 * Shopify
 * Spotify
 * Stripe
+* Twitter
 * Visual Studio
 * Webex
 * WIP
@@ -68,6 +71,12 @@ You can add new services to the workflow simply by adding a new shortcut to the 
 
 
 # Changelog[¹](https://keepachangelog.com/)
+
+## [0.3.2] - 2022-04-14
+### Added
+- AngelList's SAFE.new
+- CodeSpace Snippet
+- Compose new tweet (n.b. doesn't use a .new TLD)
 
 ## [0.3.1] - 2020-11-26
 ### Added
